@@ -23,6 +23,38 @@ export function Header(props: Props) {
 
       <Spacer />
 
+      <Flex alignItems="center" px={4}>
+        <LinkComponent href="/">
+          <Heading as="h1" size="ms">
+            List NFT
+          </Heading>
+        </LinkComponent>
+      </Flex>
+
+      <Flex alignItems="center" px={4}>
+        <LinkComponent href="/">
+          <Heading as="h3" size="ms">
+            Deposit ETH
+          </Heading>
+        </LinkComponent>
+      </Flex>
+
+      <Flex alignItems="center" px={4}>
+        <LinkComponent href="/">
+          <Heading as="h3" size="ms">
+            Buy ETH
+          </Heading>
+        </LinkComponent>
+      </Flex>
+
+      <Flex alignItems="center" px={4}>
+        <LinkComponent href="/">
+          <Heading as="h3" size="ms">
+            Claim ETH
+          </Heading>
+        </LinkComponent>
+      </Flex>
+
       <Flex alignItems="center" gap={4}>
         <PassportScore />
         <Web3Button icon="hide" label="Connect" />
