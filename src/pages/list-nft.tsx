@@ -55,7 +55,7 @@ function MintNFT({ address, chain }: { address: Address; chain: Chain }) {
   )
 }
 
-export default function MintNFTExample() {
+export default function ListNft() {
   const { address, isConnected } = useAccount()
   const { chain } = useNetwork()
 
@@ -78,6 +78,7 @@ export default function MintNFTExample() {
         </UnorderedList> */}
 
         <MintNFT address={address} chain={chain} />
+        {/* TODO: list NFT */}
       </div>
     )
   }
