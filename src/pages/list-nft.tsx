@@ -21,9 +21,7 @@ function MintNFT({ address, chain }: { address: Address; chain: Chain }) {
 
   return (
     <div>
-      <Heading as="h3" fontSize="xl" my={4}>
-        Try out
-      </Heading>
+      {!contractWrite.write && <p>Please connect to Sepolia testnet</p>}
       <Button
         width="full"
         disabled={waitForTransaction.isLoading || contractWrite.isLoading || !contractWrite.write}
@@ -64,9 +62,8 @@ export default function ListNft() {
       <div>
         <NextSeo title="Mint NFT" />
         <Heading as="h2" fontSize="2xl" my={4}>
-          Mint ERC721 NFT
+          Mint Test ERC721 NFT
         </Heading>
-        <p>This example shows how to mint an ERC721 NFT.</p>
 
         {/* <UnorderedList>
           <ListItem>
