@@ -32,7 +32,7 @@ export const OperationItems = [
     description:
       'With the secret associated with a valid NFT listing and after the NFT is sold. Seller can claim the ETH and receive it at a desired address',
     image: WithdrawIcon.src,
-    url: '/withdraw-eth',
+    url: '/claim-eth',
   },
 ]
 
