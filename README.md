@@ -1,6 +1,6 @@
 # Anon NFT Exchange
 
-An anonomyous NFT exchange based on Semaphore protocol.
+An anonymous NFT exchange based on Semaphore protocol.
 
 ## Simplicity Assumption
 
